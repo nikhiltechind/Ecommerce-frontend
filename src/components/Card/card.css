@@ -1,0 +1,25 @@
+.container {
+    position: relative;
+}
+
+.textblock {
+    position: absolute;
+    bottom: 120px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 2px;
+    border-style: solid;
+    width: 150px; opacity: 0; 
+}
+.image-container:hover .textblock {
+    opacity: 1; 
+}
+.textblock:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-color: rgba(0, 0, 0, 0.5);
+    color: white
+    
+}
+
